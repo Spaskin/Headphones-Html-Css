@@ -1,0 +1,285 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+    font-family: Montserrat,sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main-background {
+    background: url(img/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 230px 0px 0px 518px;
+
+
+}
+nav{
+
+}
+.main-background h1{
+    text-transform: uppercase;
+    font-size: 37px;
+    color: white;
+    position: relative;
+}
+.main-background p{
+    width: 66%;
+    font-size: 23px;
+    bottom: -17px;
+    position: relative;
+    opacity: 0.7;
+    text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
+
+}
+main ul{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 567px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+nav{
+    position: relative;
+    line-height: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 20px;
+}
+nav a{
+    text-transform: uppercase;
+    margin-right: 200px;
+}
+.second-pharagraph{
+    margin: 0 37px 37px 37px;
+
+}
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 1px;
+    position: absolute;
+    padding: 18px 0px 0px 260px;
+}
+.logo::before{
+    content: url(img/logo.png);
+    padding: 6px;
+    margin-left: -51px;
+    position: absolute;
+    margin-top: -24px;
+}
+.btn{
+    position: absolute;
+    background-color: yellow;
+    border-radius: 45px;
+    border: none;
+    color: white;
+    margin: 8px -4px 9px 195px;
+    padding: 8px 53px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
+
+}
+.btn:hover{
+    background-color: #31ded7;
+}
+.style,.second-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-style{
+    background: url(img/headphone-yellow.png);
+    background-color: #5bc0de;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+
+}
+.left-second-style{
+    background: url(img/showcase1.png);
+    background-color: #5bc0de;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.right-style{
+    background: url(img/headphone-black.png);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.right-second-style{
+    background: url(img/showcase2.png);
+    background-color:hotpink;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+.left-style h1,.left-second-style h1{
+    padding: 95px 0px 0px 0px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+.right-style h1,.right-second-style h1{
+    padding: 95px 0px 0px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+header{
+    text-align: center;
+}
+.left-style p,.left-second-style p{
+    font-weight: 700;
+}
+.right-style p,.right-second-style p{
+    font-weight: 700;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    background-color: #9c9c9c;
+    height: 530px;
+
+}
+.categories>h1{
+    position: absolute;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.first-product{
+    margin:15px;
+    width: 30%;
+    background-size: cover;
+    background-color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+.first-product p{
+    text-transform: uppercase;
+    color: #5bc0de;
+    font-weight: 700;
+}
+.first-product h1{
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 37px;
+    text-align: center;
+}
+.second-product{
+
+    margin:15px;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+
+}
+.second-product p{
+    text-transform: uppercase;
+    color: #5bc0de;
+    font-weight: 700;
+}
+.second-product h1{
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 37px;
+    text-align: center;
+}
+.third-product{
+
+    margin:15px;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+.third-product h1{
+    text-transform: capitalize;
+    opacity: 0.5;
+    font-weight: 500;
+    font-size: 37px;
+    text-align: center;
+}
+.third-product p{
+    text-transform: uppercase;
+    color: #5bc0de;
+    font-weight: 700;
+}
+.last-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.last-section>h1{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.first-image{
+    padding: 70px;
+
+}
+
+.second-image{
+    padding: 70px;
+
+}
+.third-image{
+    padding: 70px;
+
+}
+.first-image img,.second-image img, .third-image img{
+    box-shadow: 10px 13px 5px -6px rgba(0,0,0,0.75);
+}
+.first-image p,h1,h2,.second-image p,h1,h2,.third-image p,h1,h2  {
+    text-align: left;
+
+}
+.first-image p,.second-image p,.third-image p{
+    opacity: 0.3;
+}
+.first-image h1,.second-image h1,.third-image h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+.first-image h2,.second-image h2,.third-image h2{
+    text-transform: uppercase;
+    color:#A2F4FF;
+    font-size: 20px;
+}
